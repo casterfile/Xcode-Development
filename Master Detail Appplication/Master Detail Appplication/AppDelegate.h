@@ -1,0 +1,15 @@
+//
+//  AppDelegate.h
+//  Master Detail Appplication
+//
+//  Created by Anon on 12/8/14.
+//  Copyright (c) 2014 Anthony Castor. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
+
+@end

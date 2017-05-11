@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F452AD271C5B4347004188E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F452AD261C5B4347004188E0 /* main.m */; };
+		F452AD2A1C5B4347004188E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F452AD291C5B4347004188E0 /* AppDelegate.m */; };
+		F452AD2D1C5B4347004188E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F452AD2C1C5B4347004188E0 /* ViewController.m */; };
+		F452AD301C5B4347004188E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F452AD2E1C5B4347004188E0 /* Main.storyboard */; };
+		F452AD321C5B4347004188E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F452AD311C5B4347004188E0 /* Assets.xcassets */; };
+		F452AD351C5B4347004188E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F452AD331C5B4347004188E0 /* LaunchScreen.storyboard */; };
+		F452AD3D1C5B4C66004188E0 /* OnePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = F452AD3C1C5B4C66004188E0 /* OnePerson.m */; };
+		F4D1AB2E1C61E297000DFBE1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D1AB2D1C61E297000DFBE1 /* CoreGraphics.framework */; };
+		F4D1AB301C61E2A2000DFBE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D1AB2F1C61E2A2000DFBE1 /* Foundation.framework */; };
+		F4D1AB321C61E2AC000DFBE1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D1AB311C61E2AC000DFBE1 /* UIKit.framework */; };
+		F4D1AB341C61E2B4000DFBE1 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D1AB331C61E2B4000DFBE1 /* MessageUI.framework */; };
+		F4D1AB371C61FAD8000DFBE1 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D1AB361C61FAD8000DFBE1 /* CoreTelephony.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F452AD221C5B4347004188E0 /* Text Spamming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Text Spamming.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F452AD261C5B4347004188E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F452AD281C5B4347004188E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F452AD291C5B4347004188E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F452AD2B1C5B4347004188E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F452AD2C1C5B4347004188E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F452AD2F1C5B4347004188E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F452AD311C5B4347004188E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F452AD341C5B4347004188E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F452AD361C5B4347004188E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F452AD3C1C5B4C66004188E0 /* OnePerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnePerson.m; sourceTree = "<group>"; };
+		F452AD3E1C5B4C6C004188E0 /* OnePerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnePerson.h; sourceTree = "<group>"; };
+		F4D1AB2D1C61E297000DFBE1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F4D1AB2F1C61E2A2000DFBE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F4D1AB311C61E2AC000DFBE1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F4D1AB331C61E2B4000DFBE1 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		F4D1AB361C61FAD8000DFBE1 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F452AD1F1C5B4347004188E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D1AB371C61FAD8000DFBE1 /* CoreTelephony.framework in Frameworks */,
+				F4D1AB341C61E2B4000DFBE1 /* MessageUI.framework in Frameworks */,
+				F4D1AB321C61E2AC000DFBE1 /* UIKit.framework in Frameworks */,
+				F4D1AB301C61E2A2000DFBE1 /* Foundation.framework in Frameworks */,
+				F4D1AB2E1C61E297000DFBE1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F452AD191C5B4347004188E0 = {
+			isa = PBXGroup;
+			children = (
+				F4D1AB361C61FAD8000DFBE1 /* CoreTelephony.framework */,
+				F4D1AB351C61E2BD000DFBE1 /* Framework */,
+				F452AD241C5B4347004188E0 /* Text Spamming */,
+				F452AD231C5B4347004188E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F452AD231C5B4347004188E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F452AD221C5B4347004188E0 /* Text Spamming.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F452AD241C5B4347004188E0 /* Text Spamming */ = {
+			isa = PBXGroup;
+			children = (
+				F452AD281C5B4347004188E0 /* AppDelegate.h */,
+				F452AD291C5B4347004188E0 /* AppDelegate.m */,
+				F452AD2B1C5B4347004188E0 /* ViewController.h */,
+				F452AD2C1C5B4347004188E0 /* ViewController.m */,
+				F452AD3E1C5B4C6C004188E0 /* OnePerson.h */,
+				F452AD3C1C5B4C66004188E0 /* OnePerson.m */,
+				F452AD2E1C5B4347004188E0 /* Main.storyboard */,
+				F452AD311C5B4347004188E0 /* Assets.xcassets */,
+				F452AD331C5B4347004188E0 /* LaunchScreen.storyboard */,
+				F452AD361C5B4347004188E0 /* Info.plist */,
+				F452AD251C5B4347004188E0 /* Supporting Files */,
+			);
+			path = "Text Spamming";
+			sourceTree = "<group>";
+		};
+		F452AD251C5B4347004188E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F452AD261C5B4347004188E0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4D1AB351C61E2BD000DFBE1 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				F4D1AB331C61E2B4000DFBE1 /* MessageUI.framework */,
+				F4D1AB311C61E2AC000DFBE1 /* UIKit.framework */,
+				F4D1AB2F1C61E2A2000DFBE1 /* Foundation.framework */,
+				F4D1AB2D1C61E297000DFBE1 /* CoreGraphics.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F452AD211C5B4347004188E0 /* Text Spamming */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F452AD391C5B4347004188E0 /* Build configuration list for PBXNativeTarget "Text Spamming" */;
+			buildPhases = (
+				F452AD1E1C5B4347004188E0 /* Sources */,
+				F452AD1F1C5B4347004188E0 /* Frameworks */,
+				F452AD201C5B4347004188E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Text Spamming";
+			productName = "Text Spamming";
+			productReference = F452AD221C5B4347004188E0 /* Text Spamming.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F452AD1A1C5B4347004188E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Anon;
+				TargetAttributes = {
+					F452AD211C5B4347004188E0 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4R7SGYTCUE;
+					};
+				};
+			};
+			buildConfigurationList = F452AD1D1C5B4347004188E0 /* Build configuration list for PBXProject "Text Spamming" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F452AD191C5B4347004188E0;
+			productRefGroup = F452AD231C5B4347004188E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F452AD211C5B4347004188E0 /* Text Spamming */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F452AD201C5B4347004188E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F452AD351C5B4347004188E0 /* LaunchScreen.storyboard in Resources */,
+				F452AD321C5B4347004188E0 /* Assets.xcassets in Resources */,
+				F452AD301C5B4347004188E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F452AD1E1C5B4347004188E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F452AD2D1C5B4347004188E0 /* ViewController.m in Sources */,
+				F452AD2A1C5B4347004188E0 /* AppDelegate.m in Sources */,
+				F452AD271C5B4347004188E0 /* main.m in Sources */,
+				F452AD3D1C5B4C66004188E0 /* OnePerson.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F452AD2E1C5B4347004188E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F452AD2F1C5B4347004188E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F452AD331C5B4347004188E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F452AD341C5B4347004188E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F452AD371C5B4347004188E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F452AD381C5B4347004188E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F452AD3A1C5B4347004188E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Text Spamming/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.acastor.Text-Spamming";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F452AD3B1C5B4347004188E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Text Spamming/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.acastor.Text-Spamming";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F452AD1D1C5B4347004188E0 /* Build configuration list for PBXProject "Text Spamming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F452AD371C5B4347004188E0 /* Debug */,
+				F452AD381C5B4347004188E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F452AD391C5B4347004188E0 /* Build configuration list for PBXNativeTarget "Text Spamming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F452AD3A1C5B4347004188E0 /* Debug */,
+				F452AD3B1C5B4347004188E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F452AD1A1C5B4347004188E0 /* Project object */;
+}
